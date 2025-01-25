@@ -1,22 +1,6 @@
 {
-  "manifest_version": 3,
+  "short_name": "React App",
   "name": "Create React App Sample",
-  "version": "1.0",
-  "description": "A Chrome extension built with React",
-  "action": {
-    "default_popup": "index.html",
-    "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
-  },
-  "permissions": [
-    "activeTab"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "icons": [
     {
       "src": "favicon.ico",
